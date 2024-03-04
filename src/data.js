@@ -1,4 +1,4 @@
-const charData = [
+export const data = [
     { num: "032", bits: "00100000", char: "Space", tipo: "X" },
     { num: "033", bits: "00100001", char: "!", tipo: "X" },
     { num: "034", bits: "00100010", char: '"', tipo: "X" },
@@ -96,6 +96,5 @@ const charData = [
     { num: "126", bits: "01111110", char: "~", tipo: "X" }
   ];
   
-  const jsonData = JSON.stringify(charData, null, 2);
-  console.log(jsonData);
-  
+//   const jsonData = JSON.stringify(charData, null, 2);
+//   console.log(jsonData);
